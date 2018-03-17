@@ -71,7 +71,7 @@ header a:hover{
 
  #showcase{
      min-height: 400px;
-     background: url(../img/computer.jpg) no-repeat 0 -400px;
+     background: url('../img/computer.jpg') no-repeat 0 -400px;
      text-align: center;
      color: #333 ;
  }
@@ -177,7 +177,7 @@ footer{
     }
     #showcase{
      min-height: 400px;
-     background: url(../img/computer.jpg) no-repeat 0 -400px;
+     background: url('../img/computer.jpg') no-repeat 0 -400px;
      text-align: center;
      color: #333 ;
  }
