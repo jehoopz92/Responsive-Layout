@@ -8,45 +8,52 @@
     <title>Responsive Layout</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <ul id="left">
-            <li class="active">Emery</li>
-            <li>Web Design</li>
-        </ul>
-        <ul id="right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Servies</a></li>
-        </ul>
-    </nav>
-    <header class="showcase">
-        <h1>Affordable Professional Websites</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt obcaecati minima debitis eligendi beatae.</p>
-    </header>
-    <section class="subscribe">
-        <div class="left">
-            <h3>Subscribe To Our Newsletter</h3>
+    <header id="nav-bar">
+        <div class="container">
+        <div id="branding">
+            <h1><span class="highlight">Emery</span> Web Design</h1>
         </div>
-        <div class="right">
-            <input type="text" class="email" placeholder="Enter Email">
-            <button class="btn">Subscribe</button>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+        </div>
+   </header>
+    <section id="showcase">
+        <div class="container">
+        <h1>Affordable Professional Websites</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora aut saepe quae officia veniam!</p>
         </div>
     </section>
-    <section class="services">
-        <div class="box1">
-            <img src="./img/html.png" alt="html5">
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+        <form action="proccess.php">
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section id="boxes">
+        <div class="container">
+        <div class="box">
+            <img src="./img/logo_html.png" alt="html5">
             <h4><strong>HTML5 Markup</strong></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse exercitationem dolorum adipisci quisquam totam tenetur magnam officiis sit architecto vero.</p>
         </div>
-        <div class="box2">
-            <img src="./img/css.png" alt="css3">
+        <div class="box">
+            <img src="./img/logo_css.png" alt="css3">
             <h4><strong>CSS3 Styling</strong></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse exercitationem dolorum adipisci quisquam totam tenetur magnam officiis sit architecto vero.</p>
         </div>
-        <div class="box3">
-                <img src="./img/design.png" alt="Computer">
+        <div class="box">
+                <img src="./img/logo_brush.png" alt="Computer">
                 <h4><strong>Graphic Design</strong></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse exercitationem dolorum adipisci quisquam totam tenetur magnam officiis sit architecto vero.</p>
+            </div>
             </div>
     </section>
     <footer>
