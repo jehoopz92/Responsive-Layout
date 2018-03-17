@@ -176,8 +176,8 @@ footer{
         margin-bottom: 5px;
     }
     #showcase{
-     min-height: 400px;
-     background: url('../img/computer.jpg') no-repeat 0 -400px;
+     min-height: 100px;
+     background: url('../img/computer.jpeg') no-repeat 0 -400px;
      text-align: center;
      color: #333 ;
  }
