@@ -175,6 +175,12 @@ footer{
         width: 100%;
         margin-bottom: 5px;
     }
+    #showcase{
+     min-height: 400px;
+     background: url('../img/computer.jpg') no-repeat 0 -400px;
+     text-align: center;
+     color: #333 ;
+ }
 
 
 }
