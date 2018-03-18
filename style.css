@@ -70,7 +70,7 @@ header a:hover{
 
  #showcase{
      min-height: 400px;
-     background: url('../img/computer.jpg');
+     background: url('./img/computer.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -179,7 +179,7 @@ footer{
     }
     #showcase{
         min-height: 400px;
-        background: url('../img/computer.jpg');
+        background: url('./img/computer.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
