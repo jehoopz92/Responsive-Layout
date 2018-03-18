@@ -106,6 +106,9 @@ header a:hover{
 
  #boxes{
      margin-top: 20px;
+     text-align: center;
+     
+     
  }
  #boxes .box{
      float: left;
@@ -113,6 +116,8 @@ header a:hover{
      width: 30%;
      padding: 10px;
      color: #333;
+     background: var(--box-color);
+     margin: 0 10px 0 10px;
  }
  #boxes .box img{
      width: 90px;
@@ -152,11 +157,11 @@ footer{
      padding: 20px;
      margin-top: 20px;
      color: var(--light);
-     background-color: var(--box-color);
+     background-color: var(--bg-primary);
      text-align: center;
  }
 @media (max-width: 768px){
-    header #branding, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar{
+    header #branding, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box, article #main-col, aside #sidebar{
         float: none;
         text-align: center;
         width: 100%;
@@ -185,6 +190,11 @@ footer{
         background-repeat: no-repeat;
         text-align: center;
         color: #333 ;
+    }
+    #boxes .box{
+        text-align: center;
+        margin: 10px 0 0 10px;
+        
     }
  }
 
