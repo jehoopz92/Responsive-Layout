@@ -144,7 +144,7 @@ ul#services li{
     margin-bottom: 5px;
     background: var(--light);
 }
-aside#sidebar .quote input, aside #sidebar .quote textarea{
+.quote input, .quote textarea{
     width: 90%;
     padding: 5px;
 }
