@@ -46,7 +46,6 @@ header a{
 
 
 header li{
-    float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
@@ -71,7 +70,10 @@ header a:hover{
 
  #showcase{
      min-height: 400px;
-     background: url('../img/computer.jpg') no-repeat 0 -400px;
+     background: url('../img/computer.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
      text-align: center;
      color: #333 ;
  }
@@ -176,12 +178,16 @@ footer{
         margin-bottom: 5px;
     }
     #showcase{
-     min-height: 100px;
-     background: url('../img/computer.jpeg') no-repeat 0 -400px;
-     text-align: center;
-     color: #333 ;
+        min-height: 400px;
+        background: url('../img/computer.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: #333 ;
+    }
  }
 
 
-}
+
 
